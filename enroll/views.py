@@ -13,7 +13,7 @@ def index(request):
     data=databaseintodolist.objects.all()
     # return render(request,"index.html",{"form":form,"data":data})
     return render(request,"home.html",{"form":form,"data":data})
-
+# 
 
 
 def delete(request,id):
